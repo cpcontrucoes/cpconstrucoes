@@ -1,0 +1,147 @@
+<html>
+<head>
+<title> CP Construcoes - Realizando Sonhos - Brasil Inteiro </title>
+<style>
+.botao
+{
+color:white;
+backgroud-color:black;
+  width:280px;
+padding:14px 20px;
+  border:2px solid #D4A017;
+font-weight:bold;
+  font-size:14px;
+text-align:center;
+  text-decoration:none;
+border-radius:20px;
+  display:inline-block;
+}
+
+
+  .botao:hover
+{
+background-color:#D4A017;
+ color:black;
+box-shadow:0 4px gray;
+}
+
+	
+.botao:active
+{
+transform:translateY(8px);
+}
+
+	
+  .fugura
+{
+width:340px;
+ height:210px;
+border-radius:15%;
+ border:3px solid #D4A017;
+}
+
+	
+.espaco-branco
+{
+width:340px;
+height:210px;
+border-radius:15%;
+border:3px dashed #D4A017;
+background-color:#333;
+color:#D4A017;
+font-weight:bold;
+text-align:center;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.fundo-preto
+{
+background: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200');
+background-size:cover;
+background-position:center;
+color:white; 
+}
+
+.fundo-dourado
+{
+background-color:#111111;
+border-top:4px solid #D4A017;
+border-bottom:4px solid #D4A017;
+color:white;
+}
+
+
+
+.anuncio
+ {
+background-color:#D4A017;
+ color:black;
+padding:8px;
+ font-weight:bold;
+ }
+
+.secao
+{
+padding:60px 20px;
+}
+	
+</style>	
+</head>
+<body bgcolor="white">
+
+
+
+<!-- PAGINA 7 - ORCAMENTO -  IGUAL SUA FOTO -->
+<div class="secao fundo-preto" id="orcamento">
+<h1> <center> <font color="#D4A017" face="arial black"> 7 - Orcamento - O que voce deseja ? </font> </center> </h1>
+<p> <font color="white"> Preencha para ver seu orcamento sem compromisso - Atedemos Brasil inteiro: </font> </p>
+<br>
+<b> <font color="white"> Nome Completo: </font> </b> <br>
+<input type="text" size="70" placeholder="Digite seu nome completo">
+<br> <br>
+<b> <font color="white"> Senha para ver o orcamento depois: </font> </b> <br>
+<input type="password" size="20" placeholder="Crie uma senha">
+<br> <br>
+<b> <font color="white"> WhatsApp / Telefone: </font> </b> <br>
+<input type="text" size="30" placeholder="(12) 9 9999-9999">
+<br> <br>
+<b> <font color="white"> Qual servico voce deseja? </font> </b> <br> 
+<select>
+<option> Escolha aqui </option>
+<option> Casa Completa - Brasil Inteiro </option>
+<option> Shopping / Loja Comercial </option>
+<option> Farmacias Completa </option>
+<option> Piscina + Churrasqueira </option>
+<option> Reforma Banheiro/Cozinha </option>
+<option> Piso Porcelanato com nivelador </option>
+<option> Telhado Galvanizado Metalico </option>
+</select>
+<br> <br>
+<b> <font color="white"> O que voce deseja na obra? Conte com detalhes: </font> </b> <br>
+<texarea rows="4" cols="40" placeholder="Ex: Quero construir padaria 80m2, ja tenho ponto, ou casa 2 quartos..."> </texarea>
+<br> <br>
+<b> <font color="white"> Qual o tamanho aproximado? </font> </b>
+<br>
+<input type="radio" name="tam"> <font color="white"> Pequena - ate 50m2 </font>
+<input type="radio" name="tam"> <font color="white"> Media - 50 a 150m2 </font>
+<input type="radio" name="tam"> <font color="white"> Grande -  acima de 150m2 - Shopping/Farmacia </font>
+<br> <br>
+<center>
+<a class="botao" href="https://ws.me/5512982544900"> ENVIAR PARA WHATSAPP (12) 99999-9999 </a>
+<br> <br>
+
+</center>
+<br> <br>
+<script>
+tamanho=prompt("Qual o tamanho da sua obra em m2? Digite apenas numeros","Ex: 120")
+if(tamanho>=150){document.write("<font color='#D4A017' size=4> Obra GRANDE! Shopping/Padaria/Casa grande - equipe Brasil inteiro! </font>");}
+else if(tamanho>=1){document.write("<font color='white' size=4> Obra pequena/media - padaria, casa ou reforma - mesmo capricho! </font>");}
+else{document.write("<font color='red'> Digite numeros validos </font>");}
+</script>
+</div>
+
+
+</body>
+</html>

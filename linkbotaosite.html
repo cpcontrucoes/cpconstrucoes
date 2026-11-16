@@ -1,0 +1,86 @@
+<html>
+<head>
+<title> CSS - Aula 8 </title>
+<style>
+.dropbotao
+{
+background-color:gray;
+color:white;
+padding:16px;
+font-size:16px;
+border:nome;
+cursor:pointer;
+border-radius:22px;
+opacity:0,9;
+display:inline-block;
+}
+
+.dropbaixo
+{
+position:relative;
+display:inline-block;
+}
+
+.dropbaixo-content
+{
+display:none;
+position:absolute;
+background-color:white;
+min-width:130px;
+box-shadow:0px 8px 16px 0px rgba(0,0,0.2);
+}
+
+.dropbaixo-content a 
+{
+color:black;
+padding:5px 5px;
+text-decoration:none;
+display:block;
+}
+
+.dropbaixo-content a:hover
+{
+background-color:gray;
+}
+
+.dropbaixo:hover .dropbaixo-content
+{
+display:block;
+}
+
+.dropbaixo:hover .dropbotao
+{
+background-color:darkblue;
+}
+
+
+	
+</style>
+</head>
+<body>
+<div class="dropbaixo">
+
+<button class="dropbotao"> Personagens </button>
+
+<div class="dropbaixo-content">
+
+<a href="cp1.html" target="site"> <b> Pagina Inicial </b> </a>
+
+<a herf="cp2.html" target="site"> <b> Quem Somos </b> </a>
+
+<a herf="cp3.html" target="site"> <b> Serviços </b> </a>
+	
+<a herf="cp4.html" target="site"> <b> Piscinas </b> </a>
+
+<a herf="cp5.html" target="site"> <b> Reformas </b> </a>
+
+<a herf="cp6.html" target="site"> <b> Outras Obras </b> </a>
+
+<a herf="cp7.html" target="site"> <b> Orçamento </b> </a>
+
+<a herf="cp8.html" target="site"> <b> Contato Final </b> </a>
+
+</div> </div>
+
+</body>
+</html>
